@@ -14,8 +14,9 @@ img {
 button {
   font-family: Roboto, sans-serif;
   border: none;
-  border-radius: 8px;
+  border-radius: 12px;
   background: #eee;
+  padding: 12px;
 }
 
 input {
@@ -23,4 +24,54 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.footer {
+  background: #eee;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  position: fixed;
+  text-decoration: none;
+  width: 99%;
+}
+
+.header {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.left-links {
+  display: flex;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.right-links {
+  display: flex;
+  gap: 12px;
+  text-decoration: none;
+}
+
+a:link {
+  color: slategray;
+  text-decoration: none!important;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
 }
