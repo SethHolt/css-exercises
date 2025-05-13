@@ -52,6 +52,7 @@ body {
 
 button {
   cursor: pointer;
+  display: flex;
   padding: 8px 16px;
   border-radius: 8px;
 }
@@ -66,6 +67,7 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  margin-left: auto;
 }
 
 /* SOLUTION: */
